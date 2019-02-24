@@ -1,0 +1,21 @@
+{
+    "name": "andig/grafana-serializer",
+	"type": "library",
+	"homepage": "http://github.com/andig/grafana-serializer/",
+	"license": "MIT",
+	"support": {
+		"wiki": "http://github.com/andig/grafana-serializer/",
+		"email": "cpuidle@gmx.de"
+	},
+    "require": {
+        "jms/serializer": "^2.1"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+	"autoload": {
+		"psr-4": {
+			"Andig\\GrafanaSerializer\\": "src"
+		}
+	}
+}
